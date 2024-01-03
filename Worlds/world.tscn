@@ -1,0 +1,235 @@
+[gd_scene load_steps=4 format=3 uid="uid://dpmqum0w1ouiw"]
+
+[ext_resource type="PackedScene" uid="uid://dpdi1h1ekwp3d" path="res://Player/player.tscn" id="1_756cr"]
+[ext_resource type="Texture2D" uid="uid://bw6h7era1ktat" path="res://Resources/World/GrassBackground.png" id="1_pemwc"]
+[ext_resource type="PackedScene" uid="uid://b3b30v14sxgm1" path="res://Worlds/bush.tscn" id="2_6517b"]
+
+[node name="World" type="Node2D"]
+y_sort_enabled = true
+
+[node name="grass" type="Node2D" parent="."]
+
+[node name="back" type="Sprite2D" parent="grass"]
+position = Vector2(313.5, 303.5)
+scale = Vector2(9.73438, 9.73438)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground" type="Sprite2D" parent="grass"]
+position = Vector2(34, 34)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground2" type="Sprite2D" parent="grass"]
+position = Vector2(101, 32)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground3" type="Sprite2D" parent="grass"]
+position = Vector2(38, 166)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground4" type="Sprite2D" parent="grass"]
+position = Vector2(105, 164)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground5" type="Sprite2D" parent="grass"]
+position = Vector2(36, 100)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground6" type="Sprite2D" parent="grass"]
+position = Vector2(103, 98)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground7" type="Sprite2D" parent="grass"]
+position = Vector2(43, 233)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground8" type="Sprite2D" parent="grass"]
+position = Vector2(110, 231)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground9" type="Sprite2D" parent="grass"]
+position = Vector2(47, 365)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground10" type="Sprite2D" parent="grass"]
+position = Vector2(114, 363)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground11" type="Sprite2D" parent="grass"]
+position = Vector2(45, 299)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground12" type="Sprite2D" parent="grass"]
+position = Vector2(112, 297)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground13" type="Sprite2D" parent="grass"]
+position = Vector2(180, 230)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground14" type="Sprite2D" parent="grass"]
+position = Vector2(247, 228)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground15" type="Sprite2D" parent="grass"]
+position = Vector2(184, 362)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground16" type="Sprite2D" parent="grass"]
+position = Vector2(251, 360)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground17" type="Sprite2D" parent="grass"]
+position = Vector2(182, 296)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground18" type="Sprite2D" parent="grass"]
+position = Vector2(249, 294)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground19" type="Sprite2D" parent="grass"]
+position = Vector2(314, 230)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground20" type="Sprite2D" parent="grass"]
+position = Vector2(381, 228)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground21" type="Sprite2D" parent="grass"]
+position = Vector2(318, 362)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground22" type="Sprite2D" parent="grass"]
+position = Vector2(385, 360)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground23" type="Sprite2D" parent="grass"]
+position = Vector2(316, 296)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground24" type="Sprite2D" parent="grass"]
+position = Vector2(383, 294)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground25" type="Sprite2D" parent="grass"]
+position = Vector2(443, 231)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground26" type="Sprite2D" parent="grass"]
+position = Vector2(510, 229)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground27" type="Sprite2D" parent="grass"]
+position = Vector2(447, 363)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground28" type="Sprite2D" parent="grass"]
+position = Vector2(514, 361)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground29" type="Sprite2D" parent="grass"]
+position = Vector2(445, 297)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground30" type="Sprite2D" parent="grass"]
+position = Vector2(512, 295)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground31" type="Sprite2D" parent="grass"]
+position = Vector2(433, 31)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground32" type="Sprite2D" parent="grass"]
+position = Vector2(500, 29)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground33" type="Sprite2D" parent="grass"]
+position = Vector2(437, 163)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground34" type="Sprite2D" parent="grass"]
+position = Vector2(504, 161)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground35" type="Sprite2D" parent="grass"]
+position = Vector2(435, 97)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground36" type="Sprite2D" parent="grass"]
+position = Vector2(502, 95)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground37" type="Sprite2D" parent="grass"]
+position = Vector2(292, 28)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground38" type="Sprite2D" parent="grass"]
+position = Vector2(359, 26)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground39" type="Sprite2D" parent="grass"]
+position = Vector2(296, 160)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground40" type="Sprite2D" parent="grass"]
+position = Vector2(363, 158)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground41" type="Sprite2D" parent="grass"]
+position = Vector2(294, 94)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground42" type="Sprite2D" parent="grass"]
+position = Vector2(361, 92)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground43" type="Sprite2D" parent="grass"]
+position = Vector2(168, 34)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground44" type="Sprite2D" parent="grass"]
+position = Vector2(235, 32)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground45" type="Sprite2D" parent="grass"]
+position = Vector2(172, 166)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground46" type="Sprite2D" parent="grass"]
+position = Vector2(239, 164)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground47" type="Sprite2D" parent="grass"]
+position = Vector2(170, 100)
+texture = ExtResource("1_pemwc")
+
+[node name="GrassBackground48" type="Sprite2D" parent="grass"]
+position = Vector2(237, 98)
+texture = ExtResource("1_pemwc")
+
+[node name="bush" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="Bush" parent="bush" instance=ExtResource("2_6517b")]
+position = Vector2(163, 167)
+
+[node name="Bush6" parent="bush" instance=ExtResource("2_6517b")]
+position = Vector2(412, 227)
+
+[node name="Bush7" parent="bush" instance=ExtResource("2_6517b")]
+position = Vector2(380, 136)
+
+[node name="Bush2" parent="bush" instance=ExtResource("2_6517b")]
+position = Vector2(190, 221)
+
+[node name="Bush3" parent="bush" instance=ExtResource("2_6517b")]
+position = Vector2(284, 258)
+
+[node name="Bush4" parent="bush" instance=ExtResource("2_6517b")]
+position = Vector2(277, 128)
+
+[node name="Bush5" parent="bush" instance=ExtResource("2_6517b")]
+position = Vector2(346, 307)
+
+[node name="Player" parent="." instance=ExtResource("1_756cr")]
+y_sort_enabled = true
+position = Vector2(416, 191)
