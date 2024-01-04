@@ -239,4 +239,4 @@ position = Vector2(336, 327)
 
 [node name="Player" parent="." instance=ExtResource("1_756cr")]
 y_sort_enabled = true
-position = Vector2(202, 130)
+position = Vector2(437, 100)
